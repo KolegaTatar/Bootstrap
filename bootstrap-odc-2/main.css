@@ -13,9 +13,7 @@ h1
 	color: #C0D06F;
 	margin: 20px;
 }
-a{
-	margin-left: 10px;
-}
+
 
 .jumpers
 {
@@ -38,4 +36,9 @@ a{
 	margin-top: 8px;
 }
 
-
+.navbar{
+	min-height: 57px;
+}
+.bg-jumpers{
+	background-color:#91a33b !important;
+}
