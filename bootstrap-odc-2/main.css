@@ -42,3 +42,7 @@ h1
 .bg-jumpers{
 	background-color:#91a33b !important;
 }
+form{
+	display: flex;
+	flex-direction: row;
+}

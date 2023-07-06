@@ -12,83 +12,58 @@
 	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="main.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
-	
-	<!--[if lt IE 9]>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-	<![endif]-->
-	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-
 	<header>
-	
-		<nav class="navbar navbar-dark bg-jumpers navbar-expand-lg">
-		
-			<a class="navbar-brand" href="#"><img src="img/logo.png" width="30" height="30" class="d-inline-block mr-1 align-bottom" alt=""> Skoki.pl</a>
-		
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+		<nav class="navbar bg-jumpers navbar-dark navbar-expand-lg">
+			<a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" width="30" height="30" class="d-inline-block ms-4 me-1 align-bottom"> Skoki.pl</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Przełącznik nawigacji">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-		
-			<div class="collapse navbar-collapse" id="mainmenu">
-			
-				<ul class="navbar-nav mr-auto">
-				
-					<li class="nav-item active">
-						<a class="nav-link" href="#"> Start </a>
+			<div class="collapse navbar-collapse ms-4" id="main-menu" >
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link active">Start</a>
 					</li>
-					
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> Zawody </a>
-						
+						<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true">Zawody</a>
 						<div class="dropdown-menu" aria-labelledby="submenu">
-						
-							<a class="dropdown-item" href="#"> Terminarz zawodów </a>
-							<a class="dropdown-item" href="#"> Ranking Pucharu Świata </a>
-							
-							<div class="dropdown-divider"></div>
-							
-							<a class="dropdown-item" href="#"> Sylwetki zawodników </a>
-							<a class="dropdown-item" href="#"> Skocznie narciarskie </a>
-						
+							<a href="" class="dropdown-item">Terminarz zawodów</a>
+							<a href="" class="dropdown-item">Ranking pucharu świata</a>
+							<div class="dropdown-divider">
+
+							</div>
+							<a href="" class="dropdown-item">Sylwetki zawodników</a>
+							<a href="" class="dropdown-item">Stocznie narciarskie</a>
+
 						</div>
-						
 					</li>
-					
 					<li class="nav-item">
-						<a class="nav-link" href="#"> Historia </a>
+						<a href="#" class="nav-link">Historia</a>
 					</li>
-					
 					<li class="nav-item">
-						<a class="nav-link" href="#"> Zdjęcia </a>
+						<a href="#" class="nav-link">Zdjęcia</a>
 					</li>
-					
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#"> Wywiady </a>
+						<a href="#" class="nav-link disabled de">Wywiady</a>
 					</li>
-					
 					<li class="nav-item">
-						<a class="nav-link" href="#"> Kontakt </a>
+						<a href="#" class="nav-link">Kontakt</a>
 					</li>
-				
 				</ul>
-			
-				<form class="form-inline">
-				
-					<input class="form-control mr-1" type="search" placeholder="Wyszukaj" aria-label="Wyszukaj">
-					<button class="btn btn-light" type="submit">Znajdź</button>
-				
+				<form class="form-inline ">
+					<input type="search" class="form-control me-2 d-inline-block" placeholder="wyszukaj">
+					<button class="btn btn-light me-4 " type="submit">Znajdź</button>
 				</form>
-			
 			</div>
-		
 		</nav>
-	
 	</header>
-	
 	<main>
 		
 		<section class="jumpers">
@@ -219,12 +194,7 @@
 		</section>
 		
 	</main>
-	
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	
-	<script src="js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 	
 </body>
 </html>
