@@ -50,4 +50,37 @@ form{
 	text-align: justify;
 	font-size: 16px;
 	padding: 30px;
+	margin-bottom: 40px;
+}
+.blockquote{
+	line-height: 120%;
+}
+.list-group-item-dark{
+	background-color: #373a3d;
+	color: white;
+	border: none;
+}
+.list-group-item-dark:hover{
+	background-color: #91a33b !important;
+}
+.list-group .active{
+	background-color: #91a33b !important;
+	cursor:default;
+	color: white;
+}
+@media (max-width:575px) {
+	.wpis{
+		margin: 40px 20px;
+		text-align: left;
+		font-size: 15px;
+	}
+	.float-end, .float-start{
+		max-width: 50%
+	}
+	.blockquote{
+		font-size: 17px;
+	} 
+	.list-group{
+		text-align: center;
+	}
 }
