@@ -10,3 +10,6 @@ body{
 header nav a img{
     max-width: 2rem;
 }
+header{
+    background-color: #2F3336;
+}
