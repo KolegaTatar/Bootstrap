@@ -1,5 +1,6 @@
 :root{
     --main_color:rgb(18, 182, 127);
+    --main_color_dark:rgb(17, 163, 114);
     --white:rgb(240, 240, 240);
 }
 ::-webkit-scrollbar {
@@ -87,9 +88,17 @@ main{
     width: 100%;
     font-size: 2.5rem;
 }
+.second .content_about{
+    font-size: 1.2rem;
+    text-align:start ;
+}
+
+
 .fake_div{
     height: 5.5rem;
 }
+
+
 /*footer*/
 footer{
     min-height: 4rem;
@@ -99,3 +108,38 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+}  
+.row_c {margin: 0 -5px;}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+@media screen and (max-width: 680px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: var(--main_color);
+    color: white;
+}
+.card:hover{
+    cursor: pointer;
+    background-color:var(--main_color_dark);
+}
+  
+.fa {font-size:50px;}
