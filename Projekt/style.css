@@ -32,6 +32,7 @@ header{
 .color_text{
     color: var(--main_color);
 }
+
 .nav-link{
     padding: 1.1rem 0rem;
 }
@@ -122,6 +123,63 @@ main{
     color: var(--white);
 }
 
+.egz_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.egz_cont .egz_info{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 30rem;
+    background-color:rgb(246, 246, 246);
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.584);
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.fourth .egz_cont .egz_info{
+    display: flex;
+    flex-direction: column;
+    width: 18.5rem;
+    height: 20rem;
+    background-color:rgb(246, 246, 246);
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.584);
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.egz_cont .egz_info:hover{
+    box-shadow: 0px 0px 20px var(--main_color_dark);
+}
+.egz_cont .egz_info i{
+    font-style: normal;
+    width: 15rem;
+    height: 15rem;
+    background-color: var(--main_color_dark);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    color: var(--white);
+}
+.fourth .egz_cont .egz_info i{
+    font-style: normal;
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: var(--main_color);
+}
 
 
 
