@@ -10,6 +10,10 @@
     background-color: var(--main_color);
     border-radius: 0.3rem;
 }
+::selection{
+    background-color: var(--main_color_dark);
+    color: white;
+}
 body{
     margin: 0;
     background-color: var(--white);
@@ -80,6 +84,7 @@ main{
 }
 .second{
     margin: 5;
+    text-align: center;
 }
 .second article, .third article, .fourth article, .fifth article, .sixthy article{
     text-align: center;
@@ -90,9 +95,35 @@ main{
     font-size: 2.5rem;
 }
 .second .content_about{
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     text-align:start ;
 }
+.backpack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backpack img{
+    border-radius: 0.9rem;
+}
+.btn_z{
+    background-color: var(--main_color);
+    color: var(--white);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+.btn_p{
+    display: flex;
+    justify-content: st;
+}
+.btn_z:hover{
+    background-color: var(--main_color_dark);
+    color: var(--white);
+}
+
+
+
 
 .sixthy{
     background-image: url(img/contact.webp);
@@ -130,9 +161,9 @@ main{
     color:white !important;
 }
 
-.sixthy form input:focus-visible,.sixthy form textarea:focus-visible{ 
+.sixthy article form input:focus-visible,.sixthy article form textarea:focus-visible{ 
     background-color: var(--white);
-    color:rgba(8,28,41,1) !important;
+    color:rgb(7, 24, 36) !important;
 
 }
 .sixthy form textarea{
@@ -163,6 +194,26 @@ main{
 
 .fake_div{
     height: 5.5rem;
+}
+.social{
+    width: 100%;
+    min-height: 4rem;
+    background-color: var(--main_color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.social i{
+    padding: 0.9rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    font-size: 1.3rem;   
+}
+.social i:hover{
+    color: var(--main_color_dark);
+    cursor: pointer;
 }
 iframe{
     min-height:20rem;
