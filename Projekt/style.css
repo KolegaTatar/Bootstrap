@@ -345,11 +345,426 @@ footer{
   
 .fa {font-size:50px;}
 
-@media (max-width:320px) {
+@media (max-width:1024px) {
     iframe{
         min-height: 15rem;
     }
     header{
         min-height: 2rem;
+    }
+    .second h2, .third h2, .fourth h2, .fifth h2, .sixthy h2{
+        font-size: 3rem;
+        margin-bottom: 3rem !important;
+    }
+    .first img, .first a{
+        margin-top: 5rem;
+    }
+    .first a{
+        height: 90%;
+    }
+    .social i{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .arrow_up{
+        padding: 0.5rem 0.6rem;
+    }
+    .egz_cont .egz_info{
+        width: 25rem;
+        height: 16rem;
+        font-size: 1.8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .egz_cont .egz_info i{
+        width: 7rem;
+        height: 7rem;
+        font-size: 3rem;
+        margin-bottom: 1rem !important;
+    }
+    .fourth .egz_cont .egz_info{
+        width: 18rem;
+        height: 18rem;
+        font-size: 1.8rem;
+    }
+    .fourth .egz_cont .egz_info i{
+        width: 7.5rem;
+        height: 7.5rem;
+        font-size: 3rem;
+        margin-bottom: 1rem !important;
+    }
+    .row_c .column{
+        width: 50%;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .content_about p{
+        font-size: 1.4rem;
+    }
+    .sixthy h2{
+        font-size: 3rem !important;
+    }
+    .sixthy form input{
+        height: 1.5rem;
+        padding: 1.5rem;
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    .sixthy form textarea{
+        height: 7rem;
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    .sixthy button{
+        padding: 1.3rem 3rem;
+        font-size: 1.3rem;
+    }
+    .sixthy{
+        min-height: 38rem !important;
+    }
+    footer{
+        font-size: 1rem;
+        min-height: 3rem !important;
+    }
+}
+
+@media (max-width:768px) {
+    iframe{
+        min-height: 15rem;
+    }
+    header{
+        min-height: 2rem;
+    }
+    .second h2, .third h2, .fourth h2, .fifth h2, .sixthy h2{
+        font-size: 3rem;
+        margin-bottom: 3rem !important;
+    }
+    .first img, .first a{
+        margin-top: 5rem;
+    }
+    .first a{
+        height: 85%;
+    }
+    .social i{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .arrow_up{
+        padding: 0.5rem 0.6rem;
+    }
+    .egz_cont .egz_info{
+        width: 25rem;
+        height: 16rem;
+        font-size: 1.8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .egz_cont .egz_info i{
+        width: 7rem;
+        height: 7rem;
+        font-size: 3rem;
+        margin-bottom: 1rem !important;
+    }
+    .fourth .egz_cont .egz_info{
+        width: 14rem;
+        height: 18rem;
+        font-size: 1.8rem;
+    }
+    .fourth .egz_cont .egz_info i{
+        width: 7.5rem;
+        height: 7.5rem;
+        font-size: 3rem;
+        margin-bottom: 1rem !important;
+    }
+    .row_c .column{
+        width: 50%;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .content_about p{
+        font-size: 1.5rem;
+    }
+    .sixthy h2{
+        font-size: 3rem !important;
+    }
+    .sixthy form input{
+        height: 1.5rem;
+        padding: 1.5rem;
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    .sixthy form textarea{
+        height: 7rem;
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+    .sixthy button{
+        padding: 1.3rem 3rem;
+        font-size: 1.3rem;
+    }
+    .sixthy{
+        min-height: 38rem !important;
+    }
+    footer{
+        font-size: 1rem;
+        min-height: 3rem !important;
+    }
+}
+
+@media (max-width:480px) {
+    iframe{
+        min-height: 15rem;
+    }
+    header{
+        min-height: 2rem;
+    }
+    .second h2, .third h2, .fourth h2, .fifth h2, .sixthy h2{
+        font-size: 2.5rem;
+        margin-bottom: 3rem !important;
+    }
+    .first img, .first a{
+        margin-top: 5rem;
+    }
+    .first a{
+        height: 80%;
+    }
+    .social i{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .arrow_up{
+        padding: 0.5rem 0.6rem;
+    }
+    .egz_cont .egz_info{
+        width: 15rem;
+        height: 14rem;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .egz_cont .egz_info i{
+        width: 5rem;
+        height: 5rem;
+        font-size: 2rem;
+        margin-bottom: 1rem !important;
+    }
+    .fourth .egz_cont .egz_info{
+        width: 13rem;
+        height: 13rem;
+        font-size: 1.2rem;
+    }
+    .fourth .egz_cont .egz_info i{
+        width: 5rem;
+        height: 5rem;
+        font-size: 2rem;
+        margin-bottom: 1rem !important;
+    }
+    .row_c .column{
+        width: 50%;
+        font-size: 1.2rem;
+    }
+    .content_about p{
+        font-size: 1.2rem;
+    }
+    .sixthy h2{
+        font-size: 2.5rem !important;
+    }
+    .sixthy form input{
+        height: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .sixthy form textarea{
+        height: 6rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .sixthy button{
+        padding: 1.3rem 3rem;
+        font-size: 1rem;
+    }
+    .sixthy{
+        min-height: 32rem !important;
+    }
+    footer{
+        font-size: 0.8rem;
+        min-height: 3rem !important;
+    }
+}
+
+
+
+@media (max-width:400px) {
+    iframe{
+        min-height: 15rem;
+    }
+    header{
+        min-height: 2rem;
+    }
+    .second h2, .third h2, .fourth h2, .fifth h2, .sixthy h2{
+        font-size: 2.5rem;
+        margin-bottom: 3rem !important;
+    }
+    .first img, .first a{
+        margin-top: 5rem;
+    }
+    .first a{
+        height: 75%;
+    }
+    .social i{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .arrow_up{
+        padding: 0.5rem 0.6rem;
+    }
+    .egz_cont .egz_info{
+        width: 12rem;
+        height: 13rem;
+        font-size: 1.2rem;
+    }
+    .egz_cont .egz_info i{
+        width: 5rem;
+        height: 5rem;
+        font-size: 2rem;
+        margin-bottom: 1rem !important;
+    }
+    .fourth .egz_cont .egz_info{
+        width: 9rem;
+        height: 13rem;
+        font-size: 1.2rem;
+    }
+    .fourth .egz_cont .egz_info i{
+        width: 5rem;
+        height: 5rem;
+        font-size: 2rem;
+        margin-bottom: 1rem !important;
+    }
+    .row_c .column{
+        width: 50%;
+    }
+    .content_about p{
+        font-size: 1rem;
+    }
+    .sixthy h2{
+        font-size: 2.5rem !important;
+    }
+    .sixthy form input{
+        height: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .sixthy form textarea{
+        height: 6rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .sixthy button{
+        padding: 1.3rem 3rem;
+        font-size: 1rem;
+    }
+    .sixthy{
+        min-height: 32rem !important;
+    }
+    footer{
+        font-size: 0.8rem;
+        min-height: 3rem !important;
+    }
+}
+@media (max-width:350px) {
+    iframe{
+        min-height: 15rem;
+    }
+    header{
+        min-height: 2rem;
+    }
+    .second h2, .third h2, .fourth h2, .fifth h2, .sixthy h2{
+        font-size: 2.5rem;
+        margin-bottom: 3rem !important;
+    }
+    .first img, .first a{
+        margin-top: 5rem;
+    }
+    .first a{
+        height: 70%;
+    }
+    .social i{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    .arrow_up{
+        padding: 0.5rem 0.6rem;
+    }
+    .egz_cont .egz_info{
+        width: 12rem;
+        height: 13rem;
+        font-size: 1.2rem;
+    }
+    .egz_cont .egz_info i{
+        width: 5rem;
+        height: 5rem;
+        font-size: 2rem;
+        margin-bottom: 1rem !important;
+    }
+    .fourth .egz_cont .egz_info{
+        width: 8rem;
+        height: 13rem;
+        font-size: 1.2rem;
+    }
+    .fourth .egz_cont .egz_info i{
+        width: 5rem;
+        height: 5rem;
+        font-size: 2rem;
+        margin-bottom: 1rem !important;
+    }
+    .row_c .column{
+        width: 50%;
+    }
+    .content_about p{
+        font-size: 0.9rem;
+    }
+    .sixthy h2{
+        font-size: 2.5rem !important;
+    }
+    .sixthy form input{
+        height: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .sixthy form textarea{
+        height: 6rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .sixthy button{
+        padding: 1.3rem 3rem;
+        font-size: 1rem;
+    }
+    .sixthy{
+        min-height: 32rem !important;
+    }
+    footer{
+        font-size: 0.8rem;
+        min-height: 3rem !important;
+    }
+}
+@media (max-width:300px) {
+    .fourth .egz_cont .egz_info{
+        width: 7rem;
+        height: 11rem;
+        font-size: 1rem;
+        padding-top: 1.5rem 0.5rem 0.5rem 0.5rem !important;
+    }
+    .fourth .egz_cont .egz_info i{
+        width: 4rem;
+        height: 4rem;
+        font-size: 2rem;
+        margin-bottom: 0.5rem !important;
+    }
+    .row_c .column .card{
+        font-size: 1rem;
     }
 }
