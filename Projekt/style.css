@@ -631,7 +631,7 @@ footer{
         margin-bottom: 1rem !important;
     }
     .fourth .egz_cont .egz_info{
-        width: 9rem;
+        width: 12rem;
         height: 13rem;
         font-size: 1.2rem;
     }
@@ -709,7 +709,7 @@ footer{
         margin-bottom: 1rem !important;
     }
     .fourth .egz_cont .egz_info{
-        width: 8rem;
+        width: 12rem;
         height: 13rem;
         font-size: 1.2rem;
     }
@@ -753,8 +753,8 @@ footer{
 }
 @media (max-width:300px) {
     .fourth .egz_cont .egz_info{
-        width: 7rem;
-        height: 11rem;
+        width: 12rem;
+        height: 12rem;
         font-size: 1rem;
         padding-top: 1.5rem 0.5rem 0.5rem 0.5rem !important;
     }
