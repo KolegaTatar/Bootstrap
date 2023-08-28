@@ -346,6 +346,9 @@ footer{
 .fa {font-size:50px;}
 
 @media (max-width:1024px) {
+    .title_p2{
+        margin-top: 1rem !important;
+    }
     iframe{
         min-height: 15rem;
     }
@@ -429,6 +432,9 @@ footer{
 }
 
 @media (max-width:768px) {
+    .title_p2{
+        margin-top: 0.5rem !important;
+    }
     iframe{
         min-height: 15rem;
     }
@@ -512,6 +518,9 @@ footer{
 }
 
 @media (max-width:480px) {
+    .title_p2{
+        margin-top: 0rem !important;
+    }
     iframe{
         min-height: 15rem;
     }
