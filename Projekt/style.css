@@ -20,7 +20,7 @@ body{
     color: black;
     display: flex;
     flex-direction: column;
-    font-size: 1.1rem;
+    font-size: 1.1rem; 
     position: relative;
 }
 header{
